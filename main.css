@@ -1,0 +1,85 @@
+.card {
+    margin: 10% auto; /*auto centers element within its current container horizontally for the second input (vertically for first input)*/
+    padding-bottom: 35px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-title {
+    font-size: 2em;
+}
+
+.password-text {
+    display: flex;
+    justify-content: space-between;
+    max-height: 35px;
+}
+
+.password {
+    margin-top: 5px
+}
+
+.forgot-password {
+    margin-top: 5px;
+}
+
+.card-text {
+    margin-left: 0px;
+    margin-bottom: 8px;
+    margin-top:15px
+}
+
+.sign-in-button {
+    margin-top: 20px;
+}
+
+.btn {
+    background-image: linear-gradient(#f6db9a,#f0c24f) !important;
+    color:black !important;
+
+}
+
+.create-account button {
+    background-image: linear-gradient(#f5f6f8,#e8eaed) !important;
+    color:black !important;
+    margin-top: 8px 
+}
+
+#middle-bar {
+    display: flex;
+    justify-content: center;
+    flex-basis: 0;
+}
+
+.left-bar {
+    flex-grow: 1;
+}
+
+.right-bar {
+    flex-grow: 1;
+}
+
+.middle-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: grey;
+    font-size: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color:rgb(207, 139, 12)
+}
+
+.terms-and-conditions a {
+    text-decoration: none;
+}
+
+.terms-and-conditions a:hover {
+    text-decoration: underline;
+    color: rgb(207, 139, 12)
+}
